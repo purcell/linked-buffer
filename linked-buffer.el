@@ -91,6 +91,9 @@
 ;; There are some outstanding bugs.
 
 ;;; Code:
+
+(require 'eieio)
+
 (defvar linked-buffer-init 'linked-buffer-default-init
   "Function that initializes a linked-buffer. This should set up
 `linked-buffer-config' appropriately and do")

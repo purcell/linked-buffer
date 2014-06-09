@@ -265,7 +265,4 @@ between the two buffers; we don't care which one has comments."
   (oref conf :comment-stop))
 
 (provide 'linked-buffer-block)
-
-(provide 'linked-buffer-block)
-
 ;;; linked-buffer-block.el ends here
